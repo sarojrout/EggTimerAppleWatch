@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32AF7E61AC74AA5009AF512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32AF7E51AC74AA5009AF512 /* AppDelegate.swift */; };
+		D32AF7E81AC74AA5009AF512 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32AF7E71AC74AA5009AF512 /* ViewController.swift */; };
+		D32AF7EB1AC74AA5009AF512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32AF7E91AC74AA5009AF512 /* Main.storyboard */; };
+		D32AF7ED1AC74AA5009AF512 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32AF7EC1AC74AA5009AF512 /* Images.xcassets */; };
+		D32AF7F01AC74AA5009AF512 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32AF7EE1AC74AA5009AF512 /* LaunchScreen.xib */; };
+		D32AF7FC1AC74AA5009AF512 /* EggTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32AF7FB1AC74AA5009AF512 /* EggTimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D32AF7F61AC74AA5009AF512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32AF7D81AC74AA5009AF512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32AF7DF1AC74AA5009AF512;
+			remoteInfo = EggTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D32AF7E01AC74AA5009AF512 /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32AF7E41AC74AA5009AF512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32AF7E51AC74AA5009AF512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D32AF7E71AC74AA5009AF512 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D32AF7EA1AC74AA5009AF512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D32AF7EC1AC74AA5009AF512 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D32AF7EF1AC74AA5009AF512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D32AF7F51AC74AA5009AF512 /* EggTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32AF7FA1AC74AA5009AF512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32AF7FB1AC74AA5009AF512 /* EggTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D32AF7DD1AC74AA5009AF512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32AF7F21AC74AA5009AF512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32AF7D71AC74AA5009AF512 = {
+			isa = PBXGroup;
+			children = (
+				D32AF7E21AC74AA5009AF512 /* EggTimer */,
+				D32AF7F81AC74AA5009AF512 /* EggTimerTests */,
+				D32AF7E11AC74AA5009AF512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32AF7E11AC74AA5009AF512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32AF7E01AC74AA5009AF512 /* EggTimer.app */,
+				D32AF7F51AC74AA5009AF512 /* EggTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32AF7E21AC74AA5009AF512 /* EggTimer */ = {
+			isa = PBXGroup;
+			children = (
+				D32AF7E51AC74AA5009AF512 /* AppDelegate.swift */,
+				D32AF7E71AC74AA5009AF512 /* ViewController.swift */,
+				D32AF7E91AC74AA5009AF512 /* Main.storyboard */,
+				D32AF7EC1AC74AA5009AF512 /* Images.xcassets */,
+				D32AF7EE1AC74AA5009AF512 /* LaunchScreen.xib */,
+				D32AF7E31AC74AA5009AF512 /* Supporting Files */,
+			);
+			path = EggTimer;
+			sourceTree = "<group>";
+		};
+		D32AF7E31AC74AA5009AF512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D32AF7E41AC74AA5009AF512 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D32AF7F81AC74AA5009AF512 /* EggTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D32AF7FB1AC74AA5009AF512 /* EggTimerTests.swift */,
+				D32AF7F91AC74AA5009AF512 /* Supporting Files */,
+			);
+			path = EggTimerTests;
+			sourceTree = "<group>";
+		};
+		D32AF7F91AC74AA5009AF512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D32AF7FA1AC74AA5009AF512 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32AF7DF1AC74AA5009AF512 /* EggTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32AF7FF1AC74AA5009AF512 /* Build configuration list for PBXNativeTarget "EggTimer" */;
+			buildPhases = (
+				D32AF7DC1AC74AA5009AF512 /* Sources */,
+				D32AF7DD1AC74AA5009AF512 /* Frameworks */,
+				D32AF7DE1AC74AA5009AF512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggTimer;
+			productName = EggTimer;
+			productReference = D32AF7E01AC74AA5009AF512 /* EggTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D32AF7F41AC74AA5009AF512 /* EggTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32AF8021AC74AA5009AF512 /* Build configuration list for PBXNativeTarget "EggTimerTests" */;
+			buildPhases = (
+				D32AF7F11AC74AA5009AF512 /* Sources */,
+				D32AF7F21AC74AA5009AF512 /* Frameworks */,
+				D32AF7F31AC74AA5009AF512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32AF7F71AC74AA5009AF512 /* PBXTargetDependency */,
+			);
+			name = EggTimerTests;
+			productName = EggTimerTests;
+			productReference = D32AF7F51AC74AA5009AF512 /* EggTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32AF7D81AC74AA5009AF512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Saroj Rout";
+				TargetAttributes = {
+					D32AF7DF1AC74AA5009AF512 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D32AF7F41AC74AA5009AF512 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D32AF7DF1AC74AA5009AF512;
+					};
+				};
+			};
+			buildConfigurationList = D32AF7DB1AC74AA5009AF512 /* Build configuration list for PBXProject "EggTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D32AF7D71AC74AA5009AF512;
+			productRefGroup = D32AF7E11AC74AA5009AF512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32AF7DF1AC74AA5009AF512 /* EggTimer */,
+				D32AF7F41AC74AA5009AF512 /* EggTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32AF7DE1AC74AA5009AF512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32AF7EB1AC74AA5009AF512 /* Main.storyboard in Resources */,
+				D32AF7F01AC74AA5009AF512 /* LaunchScreen.xib in Resources */,
+				D32AF7ED1AC74AA5009AF512 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32AF7F31AC74AA5009AF512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D32AF7DC1AC74AA5009AF512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32AF7E81AC74AA5009AF512 /* ViewController.swift in Sources */,
+				D32AF7E61AC74AA5009AF512 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32AF7F11AC74AA5009AF512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32AF7FC1AC74AA5009AF512 /* EggTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D32AF7F71AC74AA5009AF512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32AF7DF1AC74AA5009AF512 /* EggTimer */;
+			targetProxy = D32AF7F61AC74AA5009AF512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D32AF7E91AC74AA5009AF512 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32AF7EA1AC74AA5009AF512 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D32AF7EE1AC74AA5009AF512 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32AF7EF1AC74AA5009AF512 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D32AF7FD1AC74AA5009AF512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D32AF7FE1AC74AA5009AF512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D32AF8001AC74AA5009AF512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EggTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D32AF8011AC74AA5009AF512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EggTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D32AF8031AC74AA5009AF512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EggTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggTimer.app/EggTimer";
+			};
+			name = Debug;
+		};
+		D32AF8041AC74AA5009AF512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EggTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggTimer.app/EggTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D32AF7DB1AC74AA5009AF512 /* Build configuration list for PBXProject "EggTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32AF7FD1AC74AA5009AF512 /* Debug */,
+				D32AF7FE1AC74AA5009AF512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32AF7FF1AC74AA5009AF512 /* Build configuration list for PBXNativeTarget "EggTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32AF8001AC74AA5009AF512 /* Debug */,
+				D32AF8011AC74AA5009AF512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D32AF8021AC74AA5009AF512 /* Build configuration list for PBXNativeTarget "EggTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32AF8031AC74AA5009AF512 /* Debug */,
+				D32AF8041AC74AA5009AF512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D32AF7D81AC74AA5009AF512 /* Project object */;
+}
