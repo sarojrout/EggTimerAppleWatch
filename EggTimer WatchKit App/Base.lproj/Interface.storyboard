@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="EggTimer_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="JrV-X9-Xew">
+                            <items>
+                                <imageView width="50" height="30" alignment="left" image="eggtimer.png" id="lQI-Sw-08x"/>
+                                <label alignment="center" verticalAlignment="center" text="Egg Timer" textAlignment="center" id="83e-wR-6S9">
+                                    <fontDescription key="font" type="system" pointSize="16"/>
+                                </label>
+                            </items>
+                        </group>
+                        <timer width="132.5" alignment="left" textAlignment="center" format="short" id="jcX-el-1ai">
+                            <fontDescription key="font" type="system" pointSize="15"/>
+                            <calendarUnit key="units" minute="YES" second="YES"/>
+                        </timer>
+                        <button width="1" height="20" alignment="left" title="Soft" id="tRd-40-ajp">
+                            <color key="backgroundColor" red="0.40000000000000002" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="20"/>
+                            <connections>
+                                <action selector="softBtnPressed" destination="AgC-eL-Hgc" id="8jo-zE-oht"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="20" alignment="left" title="Medium" id="6Ky-5Q-eQl">
+                            <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="20"/>
+                            <connections>
+                                <action selector="medBtnPressed" destination="AgC-eL-Hgc" id="lOI-Th-4ad"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="20" alignment="left" title="Hard" id="3En-SO-2mP">
+                            <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="20"/>
+                            <connections>
+                                <action selector="hardBtnPressed" destination="AgC-eL-Hgc" id="7BK-HR-xNf"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="20" alignment="left" title="RESET" id="WRj-Sv-xHI">
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="20"/>
+                            <connections>
+                                <action selector="resetBtnPressed" destination="AgC-eL-Hgc" id="srR-ZL-pa1"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="countDown" destination="jcX-el-1ai" id="8Yj-Gj-oRK"/>
+                        <outlet property="hardButton" destination="3En-SO-2mP" id="Kva-5l-j16"/>
+                        <outlet property="medButton" destination="6Ky-5Q-eQl" id="33V-op-GIg"/>
+                        <outlet property="resetBtn" destination="WRj-Sv-xHI" id="2lw-Fc-sFP"/>
+                        <outlet property="softButton" destination="tRd-40-ajp" id="lw0-bC-B8J"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

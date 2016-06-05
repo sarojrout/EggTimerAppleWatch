@@ -14,23 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D32AF7DF1AC74AA5009AF512"
-               BuildableName = "EggTimer.app"
-               BlueprintName = "EggTimer"
+               BlueprintIdentifier = "D32AF8121AC74AD0009AF512"
+               BuildableName = "EggTimer WatchKit App.app"
+               BlueprintName = "EggTimer WatchKit App"
                ReferencedContainer = "container:EggTimer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D32AF7F41AC74AA5009AF512"
-               BuildableName = "EggTimerTests.xctest"
-               BlueprintName = "EggTimerTests"
+               BlueprintIdentifier = "D32AF8081AC74AD0009AF512"
+               BuildableName = "EggTimer WatchKit Extension.appex"
+               BlueprintName = "EggTimer WatchKit Extension"
+               ReferencedContainer = "container:EggTimer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D32AF7DF1AC74AA5009AF512"
+               BuildableName = "EggTimer.app"
+               BlueprintName = "EggTimer"
                ReferencedContainer = "container:EggTimer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D32AF7F41AC74AA5009AF512"
-               BuildableName = "EggTimerTests.xctest"
-               BlueprintName = "EggTimerTests"
-               ReferencedContainer = "container:EggTimer.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D32AF7DF1AC74AA5009AF512"
-            BuildableName = "EggTimer.app"
-            BlueprintName = "EggTimer"
+            BlueprintIdentifier = "D32AF8121AC74AD0009AF512"
+            BuildableName = "EggTimer WatchKit App.app"
+            BlueprintName = "EggTimer WatchKit App"
             ReferencedContainer = "container:EggTimer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/EggTimer">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D32AF7DF1AC74AA5009AF512"
-            BuildableName = "EggTimer.app"
-            BlueprintName = "EggTimer"
+            BlueprintIdentifier = "D32AF8121AC74AD0009AF512"
+            BuildableName = "EggTimer WatchKit App.app"
+            BlueprintName = "EggTimer WatchKit App"
             ReferencedContainer = "container:EggTimer.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D32AF8121AC74AD0009AF512"
+            BuildableName = "EggTimer WatchKit App.app"
+            BlueprintName = "EggTimer WatchKit App"
+            ReferencedContainer = "container:EggTimer.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/EggTimer">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D32AF7DF1AC74AA5009AF512"
-            BuildableName = "EggTimer.app"
-            BlueprintName = "EggTimer"
+            BlueprintIdentifier = "D32AF8121AC74AD0009AF512"
+            BuildableName = "EggTimer WatchKit App.app"
+            BlueprintName = "EggTimer WatchKit App"
             ReferencedContainer = "container:EggTimer.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D32AF8121AC74AD0009AF512"
+            BuildableName = "EggTimer WatchKit App.app"
+            BlueprintName = "EggTimer WatchKit App"
+            ReferencedContainer = "container:EggTimer.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
